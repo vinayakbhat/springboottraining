@@ -1,5 +1,9 @@
 package com.coastranch.springbootstarter.topic;
 
+
+
+import javax.persistence.Id;
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -20,6 +24,7 @@ public class Topic {
 
 	@Getter
 	@Setter
+	@Id
 	private String id;
 	
 	@Getter
